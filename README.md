@@ -1,22 +1,26 @@
 # Outside Source Weather App
-----------------------------
 
-### To obtain location coordinates: 
+## UX/UI
+* [UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
+* [UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
+
+## API Instructions
+### Location API:
 Use the following API to retrieve longitude and latitude for a given zip or city
 
-### To obtain Weather Information: 
-User the following API to retrieve the forecast for longitude and latitude 
+[MapQuest API](https://developer.mapquest.com/documentation/geocoding-api/address/get/)
 
-url: `https://dark-sky.p.rapidapi.com`
+**url**: `http://www.mapquestapi.com/geocoding/v1/`
 
-headers: 
-- `x-rapidapi-key` : `f668cd53e7mshf8741e3008da3b0p1b9112jsna657102f3c10`
-- `X-RapidAPI-Host` : `dark-sky.p.rapidapi.com`
+**queries**:
+- `key=HqdrQRdnVHXE48uM8wZ5LAbogRrR1BsT`
+- `location=<LOCATION>`
 
-required query params: 
-- `latitude`
-- `longitude`
+### Weather API:
+Use the following API to retrieve the forecast for longitude and latitude
 
-optional query params: 
-- `lang` (default = en)
-- `units` (default = auto)
+[OpenWeather](https://openweathermap.org/api)
+
+**endpoint**: `https://api.openweathermap.org/data/2.5/onecall`
+
+**apiKey**: `123fe5d08a510d7e101cdd80946420cd`
