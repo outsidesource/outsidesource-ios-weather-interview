@@ -1,5 +1,16 @@
 # Outside Source Weather App
 
+## Implementation Goals
+* Separation of concerns
+* Demonstrate extensible/scalable patterns
+* Implement the UI (Universal app)
+
+## Requirements
+* Implementation of navigation
+* Implementation of APIs
+* Implementation of views
+* Implementation of all business logic
+
 ## UX/UI
 * [UX/UI Interactive](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/)
 * [UX/UI Specs](https://xd.adobe.com/view/df7a3544-1610-41e7-90f3-f28ca721dbab-8a29/specs)
