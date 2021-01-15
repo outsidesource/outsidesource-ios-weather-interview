@@ -35,3 +35,9 @@ Use the following API to retrieve the forecast for longitude and latitude
 **endpoint**: `https://api.openweathermap.org/data/2.5/onecall`
 
 **apiKey**: `123fe5d08a510d7e101cdd80946420cd`
+
+## Git Hub
+* Fork the Outside Source Weather repo
+* Create your develop branch in your repo
+* Push your changes with commit messages
+* Once completed the project, provide access to your repo for review
